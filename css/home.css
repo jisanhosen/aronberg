@@ -1,0 +1,140 @@
+*{box-sizing:border-box; padding:0; margin:0;}
+.clr{clear:both}
+.wrap{width:1000px; margin:20px auto; position:relative;}
+
+/*===HEADER===*/
+
+header.head{width:100%; overflow:hidden; background:#4d4d4d}
+header.head form{padding-right:41px; float:right; line-height:50px}
+header.head form input{width:130px; height:19px}
+ul.firstul{padding-right:40px; float:right}
+ul.firstul li{display:inline-block; list-style:none; line-height:50px}
+ul.firstul li a{padding:0 5px 0 5px}
+ul.secondul{padding-right:36px; float:right}
+ul.secondul > li{display:inline-block; list-style:none; line-height:50px}
+ul.secondul > li > a{text-decoration:none; font-size:18px; padding:0 15px 0 15px; color:#fff}
+ul.secondul > li > a:hover{text-decoration:underline}
+
+/*===SUB-MANU===*/
+
+ul.secondul > li > .sub-manu{width:315px; position:absolute; top:36px; background:url(../image/home/sub-bg.png) no-repeat; z-index:1000; display:none}
+ul.secondul > li:hover .sub-manu{display:block}
+ul.secondul > li > .sub-manu .sub-first p{
+    padding:23px 0 0 13px;
+    color:#fff;
+    font-size:13px;
+    font-family: 'Lato', sans-serif;
+    //letter-spacing:1px;
+    line-height:normal;
+}
+ul.secondul > li > .sub-manu .sub-second{padding-top:14px; line-height:normal}
+ul.secondul > li > .sub-manu .sub-second select{width:140px; height:32px; margin-left:11px; background:rgba(255,255,255,.03); color:#cfab7a; font-size:12.2px}
+ul.secondul > li > .sub-manu .sub-thrd{margin-top:9px; line-height:normal; background:url(../image/home/hr.png) no-repeat; background-position:11px 0}
+ul.secondul > li > .sub-manu .sub-thrd .girl{padding:12px 0 0 25px; float:left}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub{padding:20px 0 0 119px;}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub h3{font-size:15px; line-height:16px; color:#fff; font-family: 'Lato', sans-serif; font-weight:600}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub p{padding-top:2px; font-size:15px; line-height:15px; color:#fff; font-family: 'Lato', sans-serif;}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub p span{font-size:11px; line-height:15px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub ul li{list-style:none; display:inline-block; color:#fff; line-height:13px; font-size:11px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub ul li a{font-size:11px; color:#fff; padding-right:5px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub .arrow{position:absolute; right:13px; top:135px}
+
+ul.secondul > li > .sub-manu .sub-four{margin-top:20px; padding-bottom:20px; line-height:normal; background:url(../image/home/hr.png) no-repeat; background-position:11px 0}
+ul.secondul > li > .sub-manu .sub-four .girl{padding:12px 0 0 25px; float:left}
+ul.secondul > li > .sub-manu .sub-four .four-sub{padding:20px 0 0 119px;}
+ul.secondul > li > .sub-manu .sub-four .four-sub h3{font-size:15px; line-height:16px; color:#fff; font-family: 'Lato', sans-serif; font-weight:600}
+ul.secondul > li > .sub-manu .sub-four .four-sub p{padding-top:2px; font-size:15px; line-height:15px; color:#fff; font-family: 'Lato', sans-serif;}
+ul.secondul > li > .sub-manu .sub-four .four-sub p span{font-size:11px; line-height:15px}
+ul.secondul > li > .sub-manu .sub-four .four-sub ul li{list-style:none; display:inline-block; color:#fff; line-height:13px; font-size:11px}
+ul.secondul > li > .sub-manu .sub-four .four-sub ul li a{font-size:11px; color:#fff; padding-right:5px}
+.arrow2{position:absolute; right:13px; bottom:40px}
+
+/*===NAVBAR===*/
+
+.nav{width:100%; overflow:hidden}
+.nav ul{margin-top:17px; float:right; margin-right:32px}
+.nav ul li{display:inline-block; list-style:none; line-height:15px;}
+.nav ul li a{padding:0 10px 0 9px; text-decoration:none; font-size:11px; color:#103a6a; font-family: 'Lato', sans-serif;}
+img.logo{position:absolute; top:12px; left:43px;}
+
+/*===MAINCONT===*/
+
+.maincont{width:100%; padding-bottom:33px; position:relative; overflow:hidden}
+.maincont img{float:right; margin:12px 12px 0 0;}
+div.contant{position:absolute; top:80px; left:40px;}
+div.contant h1{font-size:40px; line-height:50px; color:#003e7e;}
+div.contant p{margin:27px 0 30px; line-height:22px; font-size:18px; color:#1c1c1c; font-family: 'Trocchi', serif;}
+div.contant a{text-decoration:none; color:#003e7e; font-family: 'Lato', sans-serif}
+
+.clear{clear:both}
+
+.Atto{width:296px; position:absolute; top:383px; left:40px; background:#ebebeb}
+.spotlight{width:100%; padding-left:10px; font-size:18px; line-height:33px; background:#003e7e; color:#fff}
+.Atto .featur{width:100%; overflow:hidden}
+.Atto .featur .float{float:left}
+.Atto .featur div h4{margin-top:18px; font-size:13px; line-height:17px; font-family: 'Lato', sans-serif; font-weight:700}
+.Atto .featur div p{margin-top:20px; font-size:12.5px; line-height:15px; font-family: 'Lato', sans-serif}
+.Atto .featur div a{width:84px; height:23px; float:right; text-decoration:none; background:#002f60; color:#fff; border:none; text-align:center}
+.Atto .featur div a:hover{text-decoration:underline}
+
+.Atto2{width:296px; position:absolute; top:610px; left:40px; background:#ebebeb}
+.Atto2 .spotlight{width:100%; padding-left:10px; font-size:18px; line-height:33px; background:#003e7e; color:#fff}
+.Atto2 .featur{width:100%; overflow:hidden}
+.Atto2 .featur .float{float:left}
+.Atto2 .featur div h4{margin-top:18px; font-size:13px; line-height:17px; font-family: 'Lato', sans-serif;}
+.Atto2 .featur div p{margin-top:20px; font-size:12.5px; line-height:15px; font-family: 'Lato', sans-serif;}
+.Atto2 .featur div a{
+    width:84px;
+    height:23px;
+    float:right;
+    text-decoration:none;
+    background:#002f60;
+    color:#fff;
+    border:none;
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+}
+
+.Recent{width:296px; position:absolute; top:383px; left:352px; background:#ebebeb}
+.News{width:100%; padding-left:10px; font-size:18px; line-height:33px; background:#003e7e; color:#fff}
+.woman h4{padding-left:10px; margin-top:18px; font-size:13px; line-height:17px; font-family: 'Lato', sans-serif; font-weight:700}
+.woman h4 span{font-weight:normal;font-family: 'Lato', sans-serif}
+.woman p{margin-top:21px; padding-left:10px; font-size:13px; line-height:15px;font-family: 'Lato', sans-serif}
+.woman a{
+    width:84px;
+    height:23px;
+    margin-top:18px;
+    float:right;
+    text-decoration:none;
+    background:#002f60;
+    color:#fff; border:none;
+    text-align:center;
+    font-family: 'Lato', sans-serif
+}
+.woman a:hover{text-decoration:underline}
+
+.Recent2{width:296px; position:absolute; top:610px; left:352px; background:#ebebeb}
+.Recent2 .News{width:100%; padding-left:10px; font-size:18px; line-height:33px; background:#003e7e; color:#fff}
+.Recent2 .woman h4{padding-left:10px; margin-top:18px; font-size:13px; line-height:17px; font-family: 'Lato', sans-serif; font-weight:700}
+.Recent2 .woman h4 span{font-weight:normal; font-family: 'Lato', sans-serif}
+.Recent2 .woman p{margin-top:23px; padding-left:10px; font-size:13px; line-height:15px; font-family: 'Lato', sans-serif}
+.Recent2 .woman a{
+    width:84px;
+    height:23px;
+    margin-top:18px;
+    float:right;
+    text-decoration:none;
+    background:#002f60;
+    color:#fff;
+    border:none;
+    text-align:center
+}
+
+/*===FOOTER===*/
+
+.ftr{width:100%; position:absolute; bottom:0; left:0;z-index:10;}
+.ftrcont{width:100%; background:#eeeeed;}
+.ftrcont img{margin-top:15px; padding-right:40px; float:right;}
+.ftrcont p{padding-right:15px; float:right; font-size:10px; line-height:52px; color:#575757}
+.ftrcont span{padding-left:40px; float:left; font-size:10px; line-height:52px; color:#575757}
+.opacity{position:absolute; bottom:0; left:0}

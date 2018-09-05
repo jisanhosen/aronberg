@@ -1,0 +1,210 @@
+*{box-sizing:border-box; padding:0; margin:0;}
+.clr{clear:both}
+.wrap{width:1000px; margin:20px auto; position:relative;}
+
+/*===HEADER===*/
+
+header.head{width:100%; overflow:hidden; background:#4d4d4d}
+header.head form{padding-right:41px; float:right; line-height:50px}
+header.head form input{width:130px; height:19px}
+ul.firstul{padding-right:40px; float:right}
+ul.firstul li{display:inline-block; list-style:none; line-height:50px}
+ul.firstul li a{padding:0 5px 0 5px}
+ul.secondul{padding-right:36px; float:right}
+ul.secondul li:first-child{background-color:#232222}
+ul.secondul li{display:inline-block; list-style:none; line-height:50px}
+ul.secondul li a{text-decoration:none; font-size:18px; padding:0 15px 0 15px; color:#fff}
+ul.secondul li a:hover{text-decoration:underline}
+
+/*===SUB-MANU===*/
+
+ul.secondul > li > .sub-manu{width:315px; position:absolute; top:36px; background:url(../image/home/sub-bg.png) no-repeat; z-index:1000; display:none}
+ul.secondul > li:hover .sub-manu{display:block}
+ul.secondul > li > .sub-manu .sub-first p{
+    padding:23px 0 0 13px;
+    color:#fff;
+    font-size:13px;
+    font-family: 'Lato', sans-serif;
+    //letter-spacing:1px;
+    line-height:normal;
+}
+ul.secondul > li > .sub-manu .sub-second{padding-top:14px; line-height:normal}
+ul.secondul > li > .sub-manu .sub-second select{width:140px; height:32px; margin-left:11px; background:rgba(255,255,255,.03); color:#cfab7a; font-size:12.2px}
+ul.secondul > li > .sub-manu .sub-thrd{margin-top:9px; line-height:normal; background:url(../image/home/hr.png) no-repeat; background-position:11px 0}
+ul.secondul > li > .sub-manu .sub-thrd .girl{padding:12px 0 0 25px; float:left}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub{padding:20px 0 0 119px;}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub h3{font-size:15px; line-height:16px; color:#fff; font-family: 'Lato', sans-serif; font-weight:600}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub p{padding-top:2px; font-size:15px; line-height:15px; color:#fff; font-family: 'Lato', sans-serif;}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub p span{font-size:11px; line-height:15px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub ul li{list-style:none; display:inline-block; color:#fff; line-height:13px; font-size:11px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub ul li a{font-size:11px; color:#fff; padding-right:5px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub .arrow{position:absolute; right:13px; top:135px}
+
+ul.secondul > li > .sub-manu .sub-four{margin-top:20px; padding-bottom:20px; line-height:normal; background:url(../image/home/hr.png) no-repeat; background-position:11px 0}
+ul.secondul > li > .sub-manu .sub-four .girl{padding:12px 0 0 25px; float:left}
+ul.secondul > li > .sub-manu .sub-four .four-sub{padding:20px 0 0 119px;}
+ul.secondul > li > .sub-manu .sub-four .four-sub h3{font-size:15px; line-height:16px; color:#fff; font-family: 'Lato', sans-serif; font-weight:600}
+ul.secondul > li > .sub-manu .sub-four .four-sub p{padding-top:2px; font-size:15px; line-height:15px; color:#fff; font-family: 'Lato', sans-serif;}
+ul.secondul > li > .sub-manu .sub-four .four-sub p span{font-size:11px; line-height:15px}
+ul.secondul > li > .sub-manu .sub-four .four-sub ul li{list-style:none; display:inline-block; color:#fff; line-height:13px; font-size:11px}
+ul.secondul > li > .sub-manu .sub-four .four-sub ul li a{font-size:11px; color:#fff; padding-right:5px}
+.arrow2{position:absolute; right:13px; bottom:40px}
+
+/*===NAVBAR===*/
+
+.nav{width:100%; overflow:hidden}
+.nav ul{margin-right:32px; float:right}
+.nav ul li{display:inline-block; list-style:none; line-height:49px;}
+.nav ul li a{padding:0 10px 0 9px; text-decoration:none; font-size:11px; color:#103a6a; font-family: 'Lato', sans-serif;}
+img.logo{position:absolute; top:12px; left:43px;}
+
+/*===MAINCONT===*/
+
+.maincont{width:100%; background:#f3f3f3}
+.twoside{width:100%; display:block}
+.fistsid{width:653px; padding-left:50px; float:left}
+.tabs{width:100%; padding-top:38px}
+.tabs ul{width:100%; padding:0; margin:0;}
+.tabs ul li{width:198px; background:#cfab79; list-style:none; display:inline-block; padding:0; margin:0;}
+.tabs ul li:first-child{background:#003e7e}
+.tabs ul li a{padding-left:20px; text-decoration:none; font-size:14px; line-height:30px; color:#fff}
+
+.Appel{width:100%; background:#e7e7e7; position:relative}
+.Appel p{padding-left:20px; font-size:34px; line-height:111px; color:#4d4d4d}
+.Appel .ankor{width:176px; background:#003e7e; position:absolute; top:10px; right:0;}
+.Appel .ankor a{padding-left:13px; text-decoration:none; font-size:14px; line-height:36px; color:#fff}
+.Appel .ankor i{padding-right:20px; float:right; line-height:36px; color:#fff}
+.Appel img{opacity:0.30; position:absolute; top:65px; right:20px}
+.para{width:100%; background:#fff}
+.para p.one{padding:15px 0 0 20px; font-size:13px; line-height:20px; color:#5c5c5c; font-family: 'Lato', sans-serif;}
+.para p.two{padding:21px 0 0 20px; font-size:13px; line-height:20px; color:#5c5c5c; font-family: 'Lato', sans-serif;}
+.para p.three{padding:21px 0 12px 20px; font-size:13px; line-height:20px; color:#5c5c5c; font-family: 'Lato', sans-serif;}
+
+.scondsid{width:257px; background:#e4e4e4; float:left; margin-top:78px; display:block}
+.scondsid h4{padding-left:20px; font-size:12px; line-height:26px; color:#010101; font-family: 'Lato', sans-serif; font-weight:700}
+.scondsid h4:first-child{padding-top:13px}
+.scondsid h4:last-child{padding-bottom:13px}
+
+/*===MAN ONE===*/
+
+.man{width:1000px; height:322px; position:relative}
+
+.man .manone{position:absolute; bottom:0px; left:82px; z-index:20}
+.man .manone:hover{z-index:100}
+.man .manone h5{
+    margin-left:30px;
+    padding-left:15px;
+    background: url(../image/practice/background.png) no-repeat;
+    font-size:12px;
+    line-height:31px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    display:none
+}
+.man .manone:hover h5{display:block}
+.man .manone img{filter:grayscale(1);}
+.man .manone img:hover{filter:none}
+
+/*===MAN TWO===*/
+
+.man .mantwo{position:absolute; bottom:0px; left:200px; z-index:19}
+.man .mantwo:hover{z-index:100}
+.man .mantwo h5{
+    margin-left:60px;
+    padding-left:5px;
+    background: url(../image/practice/background.png) no-repeat;
+    font-size:12px;
+    line-height:31px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    display:none
+}
+.man .mantwo:hover h5{display:block}
+.man .mantwo img{filter:grayscale(1);}
+.man .mantwo img:hover{filter:none;}
+
+/*===MAN THREE===*/
+
+.man .manthree{position:absolute; bottom:0px; left:358px; z-index:18}
+.man .manthree:hover{z-index:100}
+.man .manthree h5{
+    margin-left:35px;
+    padding-left:15px;
+    background: url(../image/practice/background.png) no-repeat;
+    font-size:12px;
+    line-height:31px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    display:none
+}
+.man .manthree:hover h5{display:block}
+.man .manthree img{filter:grayscale(1);}
+.man .manthree img:hover{filter:none}
+
+/*===MAN FOUR===*/
+
+.man .manfour{position:absolute; bottom:0; right:328px; z-index:17}
+.man .manfour:hover{z-index:100}
+.man .manfour h5{
+    margin-left:15px;
+    padding-left:5px;
+    background: url(../image/practice/background.png) no-repeat;
+    font-size:12px;
+    line-height:31px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    display:none
+}
+.man .manfour:hover h5{display:block}
+.man .manfour img{filter:grayscale(1);}
+.man .manfour img:hover{filter:none}
+
+/*===MAN FIVE===*/
+
+.man .manfive{position:absolute; bottom:0; right:205px; z-index:16}
+.man .manfive:hover{z-index:100}
+.man .manfive h5{
+    margin-left:-12px;
+    padding-left:10px;
+    background: url(../image/practice/background.png) no-repeat;
+    font-size:12px;
+    line-height:31px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    display:none
+}
+.man .manfive:hover h5{display:block}
+.man .manfive img{filter:grayscale(1);}
+.man .manfive img:hover{filter:none}
+
+/*===MAN SIX===*/
+
+.man .mansix{position:absolute; bottom:0; right:82px; z-index:15}
+.man .mansix:hover{z-index:100}
+.man .mansix h5{
+    margin-left:30px;
+    padding-left:5px;
+    background: url(../image/practice/background.png) no-repeat;
+    font-size:12px;
+    line-height:31px;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    display:none
+}
+.man .mansix:hover h5{display:block}
+.man .mansix img{filter:grayscale(1);}
+.man .mansix img:hover{filter:none}
+
+/*===FOOTER===*/
+
+.ftr{width:100%; position:absolute; bottom:0; left:0; z-index:200}
+.ftrcont{width:100%; background:#eeeeed;}
+.ftrcont img{margin-top:15px; padding-right:40px; float:right;}
+.ftrcont p{padding-right:15px; float:right; font-size:10px; line-height:52px; color:#575757}
+.ftrcont span{padding-left:40px; float:left; font-size:10px; line-height:52px; color:#575757}

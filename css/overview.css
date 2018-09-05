@@ -1,0 +1,95 @@
+*{box-sizing:border-box; padding:0; margin:0;}
+.clr{clear:both}
+.wrap{width:1000px; margin:20px auto; position:relative;}
+
+/*===HEADER===*/
+
+header.head{width:100%; overflow:hidden; background:#4d4d4d}
+header.head form{padding-right:41px; float:right; line-height:50px}
+header.head form input{width:130px; height:19px}
+ul.firstul{padding-right:40px; float:right}
+ul.firstul li{display:inline-block; list-style:none; line-height:50px}
+ul.firstul li a{padding:0 5px 0 5px}
+ul.secondul{padding-right:36px; float:right}
+ul.secondul li{display:inline-block; list-style:none; line-height:50px}
+ul.secondul li a{text-decoration:none; font-size:18px; padding:0 15px 0 15px; color:#fff}
+ul.secondul li a:hover{text-decoration:underline}
+img.logo{position:absolute; top:12px; left:43px; z-index:100}
+
+/*===SUB-MANU===*/
+
+ul.secondul > li > .sub-manu{width:315px; position:absolute; top:36px; background:url(../image/home/sub-bg.png) no-repeat; z-index:1000; display:none}
+ul.secondul > li:hover .sub-manu{display:block}
+ul.secondul > li > .sub-manu .sub-first p{
+    padding:23px 0 0 13px;
+    color:#fff;
+    font-size:13px;
+    font-family: 'Lato', sans-serif;
+    //letter-spacing:1px;
+    line-height:normal;
+}
+ul.secondul > li > .sub-manu .sub-second{padding-top:14px; line-height:normal}
+ul.secondul > li > .sub-manu .sub-second select{width:140px; height:32px; margin-left:11px; background:rgba(255,255,255,.03); color:#cfab7a; font-size:12.2px}
+ul.secondul > li > .sub-manu .sub-thrd{margin-top:9px; line-height:normal; background:url(../image/home/hr.png) no-repeat; background-position:11px 0}
+ul.secondul > li > .sub-manu .sub-thrd .girl{padding:12px 0 0 25px; float:left}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub{padding:20px 0 0 119px;}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub h3{font-size:15px; line-height:16px; color:#fff; font-family: 'Lato', sans-serif; font-weight:600}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub p{padding-top:2px; font-size:15px; line-height:15px; color:#fff; font-family: 'Lato', sans-serif;}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub p span{font-size:11px; line-height:15px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub ul li{list-style:none; display:inline-block; color:#fff; line-height:13px; font-size:11px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub ul li a{font-size:11px; color:#fff; padding-right:5px}
+ul.secondul > li > .sub-manu .sub-thrd .thrd-sub .arrow{position:absolute; right:13px; top:135px}
+
+ul.secondul > li > .sub-manu .sub-four{margin-top:20px; padding-bottom:20px; line-height:normal; background:url(../image/home/hr.png) no-repeat; background-position:11px 0}
+ul.secondul > li > .sub-manu .sub-four .girl{padding:12px 0 0 25px; float:left}
+ul.secondul > li > .sub-manu .sub-four .four-sub{padding:20px 0 0 119px;}
+ul.secondul > li > .sub-manu .sub-four .four-sub h3{font-size:15px; line-height:16px; color:#fff; font-family: 'Lato', sans-serif; font-weight:600}
+ul.secondul > li > .sub-manu .sub-four .four-sub p{padding-top:2px; font-size:15px; line-height:15px; color:#fff; font-family: 'Lato', sans-serif;}
+ul.secondul > li > .sub-manu .sub-four .four-sub p span{font-size:11px; line-height:15px}
+ul.secondul > li > .sub-manu .sub-four .four-sub ul li{list-style:none; display:inline-block; color:#fff; line-height:13px; font-size:11px}
+ul.secondul > li > .sub-manu .sub-four .four-sub ul li a{font-size:11px; color:#fff; padding-right:5px}
+.arrow2{position:absolute; right:13px; bottom:40px}
+
+/*===MAINCONT===*/
+
+.maincont{width:100%; min-height:797px; background-image: url(../image/overview/bg.jpg);}
+
+/*===NAVBAR===*/
+
+.nav{width:100%; overflow:hidden; background:#fff; background:rgba(255,255,255,.5)}
+.nav ul{margin-right:32px; float:right}
+.nav ul li{display:inline-block; list-style:none; line-height:49px;}
+.nav ul li a{padding:0 10px 0 9px; text-decoration:none; font-size:11px; color:#103a6a; font-family: 'Lato', sans-serif;}
+.nav .color{color:#000}
+
+/*===TAP===*/
+
+.tap{width:652px; margin-top:38px; margin-left:50px}
+.tap .tapall{float:left; background:#cfab79; margin-left:1px}
+.tap .tapone{width:217px; margin-left:0; background:#003e7e}
+.tap .taptwo{width:217px;}
+.tap .tapthree{width:216px;}
+.tap .tapall a{font-size:14px; line-height:30px; color:#fff; padding-left:20px; text-decoration:none}
+
+/*===ABOUT===*/
+
+.about{width:909px; margin-left:50px; background:#fff; background:rgba(255,255,255,.5)}
+.about .h4-1{padding:30px 0 0 20px; font-size:14px; line-height:15px; font-family: 'Lato', sans-serif; font-weight:700;}
+.about .p-1{padding:25px 0 0 20px; font-size:14px; line-height:20px; font-family: 'Lato', sans-serif; color:#5c5c5c}
+.about .p-2{padding:20px 0 0 20px; font-size:14px; line-height:20px; font-family: 'Lato', sans-serif; color:#5c5c5c}
+.about .h4-2{padding:20px 0 0 20px; font-size:14px; line-height:15px; font-family: 'Lato', sans-serif; font-weight:700}
+.about .p-3{padding:25px 0 0 20px; font-size:14px; line-height:20px; font-family: 'Lato', sans-serif; color:#5c5c5c}
+
+.about .ul{width:100%; margin-top:32px; padding-bottom:32px; font-family: 'Lato', sans-serif}
+.about .ul ul{float:left}
+.about .ul ul li{font-size:14px; line-height:17px; color:#5c5c5c}
+.about .ul .ulone{width:410px; padding-left:50px}
+.about .ul .ultwo{width:499px;}
+
+/*===FOOTER===*/
+
+.ftr{width:100%; position:absolute; bottom:0; left:0;}
+.ftrcont{width:100%; background:#eeeeed;}
+.ftrcont img{margin-top:15px; padding-right:40px; float:right;}
+.ftrcont p{padding-right:15px; float:right; font-size:10px; line-height:52px; color:#575757}
+.ftrcont span{padding-left:40px; float:left; font-size:10px; line-height:52px; color:#575757}
